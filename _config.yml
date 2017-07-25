@@ -31,8 +31,6 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-<<<<<<< HEAD
-
 defaults:
   -   scope:
         type: "posts"
@@ -40,5 +38,4 @@ defaults:
         image:
         filter:
     
-=======
->>>>>>> origin/master
+
