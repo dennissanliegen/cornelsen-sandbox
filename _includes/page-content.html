@@ -12,5 +12,10 @@
 
 		  
 		{% endfor %}
+
+		{% for filter in site.filters %}
+			<h2>{{ filter.title }}</h2>
+		{% endfor %}
+
 	</div><!-- .content__container -->
 </div><!-- page__content -->
