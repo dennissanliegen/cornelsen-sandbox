@@ -1,7 +1,0 @@
----
-title: PostNo1
-date: 2017-07-25 12:45:00 Z
-layout: post
----
-
-This is the content of the Post.
