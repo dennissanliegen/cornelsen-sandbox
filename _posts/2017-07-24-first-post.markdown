@@ -1,8 +1,6 @@
 ---
 title: First Post
 date: 2017-07-24 15:05:00 Z
-categories:
-- update
 layout: post
 ---
 
