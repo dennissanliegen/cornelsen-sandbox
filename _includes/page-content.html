@@ -2,14 +2,14 @@
 	
 	<div class="filter__container">
 		<ul>
-			{% for cat in site.filter %}
-			<li></li>
+			{% for post in site.filter %}
+				{ post.title }}
 			{% endfor %}
 		</ul>
 
 	</div><!-- .filter__container -->
 
-
+	<div class="content__container">
 	{% for post in site.posts %}
 	  <article class="{% if forloop.first %}first{% elsif forloop.last %}last{% else %}middle{% endif %}">
 			<div class="article-head">
@@ -23,4 +23,5 @@
 		</article>
 		{% if forloop.last %}{% else %}<div class="separater"></div>{% endif %}
 	{% endfor %}
+	</div><!-- .content__container -->
 </div><!-- page__content -->
