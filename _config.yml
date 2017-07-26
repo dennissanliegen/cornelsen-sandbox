@@ -24,3 +24,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+
+collections:
+  portfolio:
+    outut: true
+    permalink: /:collection/:name
