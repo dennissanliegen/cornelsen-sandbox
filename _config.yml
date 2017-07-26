@@ -20,12 +20,3 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-
