@@ -5,7 +5,7 @@ collections:
   filter:
     title: Filter
     output: true
-    permalink: /:collection/:name
+    permalink: "/:collection/:name"
   posts:
     title: Posts
     output: true
