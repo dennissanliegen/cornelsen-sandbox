@@ -24,3 +24,10 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
+
+defaults:
+  - scope:
+      type: "posts"
+    values:
+      filter: 
+      layout: post
