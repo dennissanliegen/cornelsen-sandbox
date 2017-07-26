@@ -2,18 +2,22 @@
 <div class="page__content">
 	<section class="c__posts">
 		<ul>
-		{% for test in site.posts %}
+		{% for item in site.posts %}
 			<li>
-				<p>{{ test.title }}</p>
+				<p>{{ item.title }}</p>
+				
 			</li>
+			{% for test in item.categories %}
+			 	
+			{% endfor %}
 		{% endfor %}			
 		</ul>
 	</section>
 	<section class="c__filter">
 		<ul>
-		{% for item in site.filter %}
+		{% for cat in posts.categories %}
 			<li>
-				<p>{{ item.title }}</p>
+				
 			</li>
 		{% endfor %}			
 		</ul>
