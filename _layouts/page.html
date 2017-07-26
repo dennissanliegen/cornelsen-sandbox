@@ -4,7 +4,13 @@
 		
 	</section>
 	<section class="c__filter">
-		
+		<ul>
+		{% for item in site.filter %}
+			<li>
+				<p>{{ item.title }}</p>
+			</li>
+		{% endfor %}			
+		</ul>
 	</section>
 </div><!-- .page__content -->
 {% include footer.html %}
