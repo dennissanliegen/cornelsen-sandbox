@@ -20,10 +20,6 @@ markdown: kramdown
 theme: minima
 plugins:
 - jekyll-feed
-<<<<<<< HEAD
-
-collections:
-  - portfolio
 
 collections:
   posts:
@@ -32,7 +28,4 @@ collections:
   uploads:
     title: Uploads
     output: true
-  portfolio:
-    outut: true
-    permalink: /:collection/:name
 
