@@ -1,7 +1,13 @@
 {% include header.html %}
 <div class="page__content">
 	<section class="c__posts">
-		
+		<ul>
+		{% for test in site.posts %}
+			<li>
+				<p>{{ test.title }}</p>
+			</li>
+		{% endfor %}			
+		</ul>
 	</section>
 	<section class="c__filter">
 		<ul>
